@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc012b3b-099b-4f0e-9f18-239c9f2f2c66</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Bieudo_line.py</StartupFile>
+    <StartupFile>Hash_Unhashable.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonByEx</Name>
     <RootNamespace>PythonByEx</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,11 +26,18 @@
     <Compile Include="Bieudo_line.py" />
     <Compile Include="BinarySearch.py" />
     <Compile Include="Booleans.py" />
+    <Compile Include="Chuoi1.py" />
+    <Compile Include="Chuoi2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DemsoluonghocsinhK12.py" />
     <Compile Include="Dictionaries.py" />
     <Compile Include="Examples.py" />
     <Compile Include="file1.py" />
     <Compile Include="func.py" />
+    <Compile Include="Hash_Unhashable.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ifelse.py" />
     <Compile Include="lap_for.py" />
     <Compile Include="Linearsearch.py" />
